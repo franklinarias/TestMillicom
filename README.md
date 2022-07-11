@@ -1,26 +1,27 @@
 # TestMillicom
 
-Para ejecutar solo es necesario tener instalado NodeJS y ejecutar el script testMillicom.js.
-node testMillicom.js
+1) Para ejecutar solo es necesario tener instalado NodeJS y ejecutar el script testMillicom.js.
+   $ node testMillicom.js
+   
+   Luego acceder a 
+   http://localhost:8080/home
 
-Luego acceder a http://localhost:8080/home
 
-Otra opcion es utilizar Docker, para esto deje el archivo Dockerfile preparado, las instrucciones serian las siguiente:
+2) Otra opcion es utilizar Docker, para esto deje el archivo Dockerfile preparado, las instrucciones serian las siguiente:
 
 Requisito: 
 
-* Tener instalado Docker
+* Tener Docker instalado
 
 Pasos:
 
-1) ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
+    Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
     
-    "Crear imagen Docker"
+    "Para crear imagen Docker"
   $ docker build -t franklin/nodejs-test-millicom .
 
-    "Iniciar contenedor" 
+    "Para iniciar contenedor" 
   $ docker run --name nodejs-image-demo -p 8080:8080 -d ariasfranklin/nodejs-test-millicom
   
-Para acceder al sitio abrir el navegador y acceder al siguiente enlace:
-
-http://localhost:8080/home
+  Luego podra acceder al sitio
+  http://localhost:8080/home
