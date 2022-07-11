@@ -5,16 +5,17 @@
    Requisito:
    
    * Tener instalado NodeJS
+Pasos:
 
-   Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
+   	Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
    
       "Primero descargue el proyecto"
    $ git clone https://github.com/franklinarias/TestMillicom.git
       
-      "Luego instale las dependecias con npm" 
-   $ npm i package.json
+     "Luego instale las dependecias con npm" 
+	$ npm i package.json
       
-      "Ejecute el script testMillicom.js"
+     "Ejecute el script testMillicom.js"
    $ node testMillicom.js
    
    Luego acceder a 
