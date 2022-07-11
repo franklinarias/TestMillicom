@@ -1,10 +1,12 @@
 # TestMillicom
 
-1) Para ejecutar solo es necesario tener instalado NodeJS y ejecutar el script testMillicom.js.
+1) Para ejecutar es necesario tener instalado NodeJS y ejecutar el script testMillicom.js.
    
    Requisito:
    
    * Tener instalado NodeJS
+
+   Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
    
    "Primero descargue el proyecto"
       $ git clone https://github.com/franklinarias/TestMillicom.git
