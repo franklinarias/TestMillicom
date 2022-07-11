@@ -15,7 +15,7 @@ Pasos:
      "Luego instale las dependecias con npm" 
    $ npm i package.json
       
-     "Ejecute el script testMillicom.js"
+      "Ejecute el script testMillicom.js"
    $ node testMillicom.js
    
    Luego acceder a 
