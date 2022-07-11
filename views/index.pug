@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Test Millicom
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+  
+  body
+  
+  div(class="container" class="w-50 p-3")
+    div(class="row justify-content-md-center")
+      div(class="col col-lg-1")
+      p(class="h1" align="center") #{titles}
+      img(src=url_img, class="rounded mx-auto d-block" class="w-50" alt=alt)            
+      p(class="h3" align="center") #{num} de #{numLast}
+      p Fecha: #{fecha}
+      p #{transcript}
+      
+      div(class="row justify-content-md-center")
+      table(class="table")
+          thead
+            tr
+              th(scope="col")
+                a(class="btn btn-link btn-sm" href="/inicio" role="button") Ir al inicio
+              th(scope="col")
+                a(class="btn btn-primary btn-sm" href="/anterior" role="button") Anterior
+              th(scope="col")
+                a(class="btn btn-primary btn-sm" href="/siguiente" role="button") Siguiente
+              th(scope="col")
+                a(class="btn btn-link btn-sm" href="/home" role="button") Ver ultimo comic

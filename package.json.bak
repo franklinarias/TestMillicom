@@ -1,0 +1,17 @@
+{
+  "name": "TestMillicom",
+  "version": "1.0.0",
+  "description": "nodejs demo para Millicom",
+  "author": "Franklin Arias franklin.arias89@gmail.com>",
+  "license": "MIT",
+  "main": "testMillicom.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+	"bootstrap": "5.0.2"
+  }
+}
